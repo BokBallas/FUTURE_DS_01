@@ -1,0 +1,148 @@
+{
+  "name": "Custom Theme",
+  "dataColors": [
+    "#679a44",
+    "#eacc7b",
+    "#38a62e",
+    "#822613",
+    "#151dab"
+  ],
+  "foreground": "#f9fafb",
+  "background": "#1e293b",
+  "foregroundNeutralSecondary": "#d1d5db",
+  "backgroundLight": "#0f172a",
+  "foregroundNeutralTertiary": "#d1d5db",
+  "backgroundNeutral": "#334155",
+  "tableAccent": "#679a44",
+  "maximum": "#38a62e",
+  "center": "#eacc7b",
+  "minimum": "#679a44",
+  "bad": "#679a44",
+  "neutral": "#eacc7b",
+  "good": "#38a62e",
+  "textClasses": {
+    "callout": {
+      "color": "#f9fafb",
+      "fontFace": "Tahoma, sans-serif"
+    },
+    "title": {
+      "color": "#f9fafb",
+      "fontFace": "Tahoma, sans-serif"
+    },
+    "header": {
+      "color": "#f9fafb",
+      "fontFace": "Tahoma, sans-serif"
+    },
+    "label": {
+      "color": "#f9fafb",
+      "fontFace": "Tahoma, sans-serif"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#334155"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#334155"
+              }
+            },
+            "show": true,
+            "radius": 16
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": {
+                "color": "#334155"
+              }
+            },
+            "border": {
+              "solid": {
+                "color": "#334155"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0f172a"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1e293b"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ececec"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 0
+          },
+          {
+            "$id": "Available",
+            "backgroundColor": {
+              "solid": {
+                "color": "#ffffff"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
